@@ -19,7 +19,7 @@ jobs:
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-        run: python fetch_emails.py
+        run: python getemails.py
       - name: Install Python Dependencies
         run: |
           pip install yfinance pandas yagmail pytz requests bs4 numpy numpy_financial
