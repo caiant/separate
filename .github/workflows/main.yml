@@ -27,6 +27,10 @@ jobs:
       - name: Run Finding Numbers
         run: |
           python findingnumbers.py
-           - name: Run Format Html
+      - name: Run Format Html
         run: |
           python format_html.py
+      - name: Run Send Email
+        run: |
+          python send_email.py
+          
