@@ -122,3 +122,6 @@ def format_html_report(df):
     </html>
     """
     return html
+
+if __name__ == "__main__":
+    format_html_report(df)
