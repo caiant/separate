@@ -124,4 +124,4 @@ def format_html_report(df):
     return html
 
 if __name__ == "__main__":
-    format_html_report(df)
+    format_html_report()
