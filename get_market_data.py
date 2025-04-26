@@ -119,4 +119,8 @@ def get_market_data():
     return pd.DataFrame(data, columns=["Asset", "Last Price", "Change", "Change %"])
 
 
+if __name__ == "__main__":
+    get_market_data()
+
+
 
