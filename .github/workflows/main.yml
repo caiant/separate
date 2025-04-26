@@ -27,3 +27,6 @@ jobs:
       - name: Run Finding Numbers
         run: |
           python findingnumbers.py
+           - name: Run Format Html
+        run: |
+          python format_html.py
