@@ -1,4 +1,4 @@
-
+import yagmail
 # Email credentials (use environment variables in production)
 EMAIL_ADDRESS = "cailin.antonio@glccap.com"
 EMAIL_PASSWORD = "ohdu zsxf lahi mpss"
